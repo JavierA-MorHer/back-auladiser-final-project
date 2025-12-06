@@ -1,0 +1,64 @@
+FAILED: pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o
+      cc -Ipandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../pip-build-env-r_2bd68r/overlay/lib/python3.13/site-packages/numpy/core/include -I../../pandas/_libs/include -I/opt/render/project/python/Python-3.13.4/include/python3.13 -fvisibility=hidden -fdiagnostics-color=always -DNDEBUG -D_FILE_OFFSET_BITS=64 -w -std=c99 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -fPIC -MD -MQ pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o -MF pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o.d -o pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o -c pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c
+      pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c: In function ‘__Pyx_PyInt_As_long’:
+      pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c:5397:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+       5397 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+            |                           ^~~~~~~~~~~~~~~~~~~
+      In file included from /opt/render/project/python/Python-3.13.4/include/python3.13/longobject.h:107,
+                       from /opt/render/project/python/Python-3.13.4/include/python3.13/Python.h:81,
+                       from pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c:6:
+      /opt/render/project/python/Python-3.13.4/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c: In function ‘__Pyx_PyInt_As_int’:
+      pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/base.pyx.c:5631:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+       5631 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+            |                           ^~~~~~~~~~~~~~~~~~~
+      /opt/render/project/python/Python-3.13.4/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      [13/151] Compiling C object pandas/_libs/tslibs/ccalendar.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_ccalendar.pyx.c.o
+      FAILED: pandas/_libs/tslibs/ccalendar.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_ccalendar.pyx.c.o
+      cc -Ipandas/_libs/tslibs/ccalendar.cpython-313-x86_64-linux-gnu.so.p -Ipandas/_libs/tslibs -I../../pandas/_libs/tslibs -I../../../../pip-build-env-r_2bd68r/overlay/lib/python3.13/site-packages/numpy/core/include -I../../pandas/_libs/include -I/opt/render/project/python/Python-3.13.4/include/python3.13 -fvisibility=hidden -fdiagnostics-color=always -DNDEBUG -D_FILE_OFFSET_BITS=64 -w -std=c99 -O3 -DNPY_NO_DEPRECATED_API=0 -DNPY_TARGET_VERSION=NPY_1_21_API_VERSION -fPIC -MD -MQ pandas/_libs/tslibs/ccalendar.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_ccalendar.pyx.c.o -MF pandas/_libs/tslibs/ccalendar.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_ccalendar.pyx.c.o.d -o pandas/_libs/tslibs/ccalendar.cpython-313-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_ccalendar.pyx.c.o -c pandas/_libs/tslibs/ccalendar.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/ccalendar.pyx.c
+      pandas/_libs/tslibs/ccalendar.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/ccalendar.pyx.c: In function ‘__Pyx_PyInt_As_int’:
+      pandas/_libs/tslibs/ccalendar.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/ccalendar.pyx.c:7376:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+       7376 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+            |                           ^~~~~~~~~~~~~~~~~~~
+      In file included from /opt/render/project/python/Python-3.13.4/include/python3.13/longobject.h:107,
+                       from /opt/render/project/python/Python-3.13.4/include/python3.13/Python.h:81,
+                       from pandas/_libs/tslibs/ccalendar.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/ccalendar.pyx.c:6:
+      /opt/render/project/python/Python-3.13.4/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      pandas/_libs/tslibs/ccalendar.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/ccalendar.pyx.c: In function ‘__Pyx_PyInt_As_long’:
+      pandas/_libs/tslibs/ccalendar.cpython-313-x86_64-linux-gnu.so.p/pandas/_libs/tslibs/ccalendar.pyx.c:7686:27: error: too few arguments to function ‘_PyLong_AsByteArray’
+       7686 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+            |                           ^~~~~~~~~~~~~~~~~~~
+      /opt/render/project/python/Python-3.13.4/include/python3.13/cpython/longobject.h:111:17: note: declared here
+        111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+            |                 ^~~~~~~~~~~~~~~~~~~
+      [14/151] Compiling Cython source /tmp/pip-install-c_eigz4x/pandas_59b5ef4582b043638a6c58b07ed4e87c/pandas/_libs/tslibs/nattype.pyx
+      [15/151] Compiling Cython source /tmp/pip-install-c_eigz4x/pandas_59b5ef4582b043638a6c58b07ed4e87c/pandas/_libs/tslibs/dtypes.pyx
+      [16/151] Compiling C object pandas/_libs/tslibs/parsing.cpython-313-x86_64-linux-gnu.so.p/.._src_parser_tokenizer.c.o
+      [17/151] Compiling Cython source /tmp/pip-install-c_eigz4x/pandas_59b5ef4582b043638a6c58b07ed4e87c/pandas/_libs/tslibs/np_datetime.pyx
+      [18/151] Compiling Cython source /tmp/pip-install-c_eigz4x/pandas_59b5ef4582b043638a6c58b07ed4e87c/pandas/_libs/tslibs/timezones.pyx
+      [19/151] Compiling Cython source /tmp/pip-install-c_eigz4x/pandas_59b5ef4582b043638a6c58b07ed4e87c/pandas/_libs/tslibs/vectorized.pyx
+      [20/151] Compiling Cython source /tmp/pip-install-c_eigz4x/pandas_59b5ef4582b043638a6c58b07ed4e87c/pandas/_libs/tslibs/tzconversion.pyx
+      [21/151] Compiling Cython source /tmp/pip-install-c_eigz4x/pandas_59b5ef4582b043638a6c58b07ed4e87c/pandas/_libs/tslibs/fields.pyx
+      [22/151] Compiling Cython source /tmp/pip-install-c_eigz4x/pandas_59b5ef4582b043638a6c58b07ed4e87c/pandas/_libs/tslibs/strptime.pyx
+      [23/151] Compiling Cython source /tmp/pip-install-c_eigz4x/pandas_59b5ef4582b043638a6c58b07ed4e87c/pandas/_libs/tslibs/conversion.pyx
+      [24/151] Compiling Cython source /tmp/pip-install-c_eigz4x/pandas_59b5ef4582b043638a6c58b07ed4e87c/pandas/_libs/tslibs/offsets.pyx
+      [25/151] Compiling Cython source /tmp/pip-install-c_eigz4x/pandas_59b5ef4582b043638a6c58b07ed4e87c/pandas/_libs/tslibs/parsing.pyx
+      [26/151] Compiling Cython source /tmp/pip-install-c_eigz4x/pandas_59b5ef4582b043638a6c58b07ed4e87c/pandas/_libs/tslibs/period.pyx
+      [27/151] Compiling Cython source /tmp/pip-install-c_eigz4x/pandas_59b5ef4582b043638a6c58b07ed4e87c/pandas/_libs/tslibs/timedeltas.pyx
+      [28/151] Compiling Cython source /tmp/pip-install-c_eigz4x/pandas_59b5ef4582b043638a6c58b07ed4e87c/pandas/_libs/tslibs/timestamps.pyx
+      [29/151] Compiling Cython source /tmp/pip-install-c_eigz4x/pandas_59b5ef4582b043638a6c58b07ed4e87c/pandas/_libs/algos.pyx
+      ninja: build stopped: subcommand failed.
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+[notice] A new release of pip is available: 25.1.1 -> 25.3
+[notice] To update, run: pip install --upgrade pip
+error: metadata-generation-failed
+× Encountered error while generating package metadata.
+╰─> See above for output.
