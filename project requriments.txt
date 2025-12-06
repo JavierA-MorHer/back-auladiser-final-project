@@ -1,0 +1,14 @@
+Actividad: Crear un endpoint que reciba como parámetro el año (year) para devolver
+una imagen de una gráfica de líneas sobre las ventas mensuales en ese año por cada
+sucursal.
+GET /sales/branches/line-chart?year=2025
+Información: Existen datos históricos de ventas por día en los últimos 3 años (se deben
+agrupar por mes).
+Acciones:
+▪ Consultar el total de ventas mensuales del año solicitado.
+▪ Verificar que existan ventas en el año ingresado.
+▪ Si el parámetro no se envía, se toma el año actual.
+▪ Generar una gráfica de líneas con matplotlib mostrando la variación de las
+ventas mes a mes, por cada sucursal (representada por una línea diferente).
+▪ Convertir la imagen generada a formato imagen (image/png) y devolverla como
+respuesta en la API.
