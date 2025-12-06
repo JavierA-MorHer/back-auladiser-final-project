@@ -1,1 +1,0 @@
-postgresql://final_project_a0jg_user:MYShwtnxrYslPQMXpZYiik1mRnub7CAd@dpg-d4prs163jp1c7396957g-a.oregon-postgres.render.com/final_project_a0jg
