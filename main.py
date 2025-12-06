@@ -1,5 +1,6 @@
 import flask
 from flask import request, Response
+from flask_cors import CORS
 import psycopg2
 from psycopg2.extras import RealDictCursor
 import pandas as pd
@@ -11,6 +12,7 @@ from datetime import datetime
 import os
 
 app = flask.Flask(__name__)
+CORS(app)  # Habilitar CORS para todas las rutas
 
 def get_db_connection():
     """Obtiene la conexión a la base de datos PostgreSQL"""
@@ -103,11 +105,13 @@ def sales_branches_line_chart():
         plt.close()
         
         # Devolver la imagen como respuesta
-        return Response(
+        response = Response(
             img_buffer.getvalue(),
             mimetype='image/png',
             headers={'Content-Disposition': f'inline; filename=sales_chart_{year}.png'}
         )
+        # Los headers CORS se agregan automáticamente por flask-cors
+        return response
         
     except Exception as e:
         return flask.jsonify({
